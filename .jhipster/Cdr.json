@@ -1,0 +1,186 @@
+{
+    "name": "Cdr",
+    "fields": [
+        {
+            "fieldName": "iAccount",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "offset",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "limit",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cli",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cld",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "iCdr",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "setupTime",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "connectTime",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "billedDuration",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "planDuration",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "cliIn",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cldIn",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cost",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "country",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "remoteIp",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "result",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "protocol",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "accessibilityCost",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "gracePeriod",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "postCallSurcharge",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "connectFee",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "freeSeconds",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "duration",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "interval1",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "intervalN",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "price1",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "priceN",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "delay",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "pdd1xx",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "iCall",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "callId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prefix",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lrnCld",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lrnCldIn",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "pAssertedId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "remotePartyId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "releaseSource",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "userAgent",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "areaName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20210623000800",
+    "entityTableName": "cdr",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "yoothit",
+    "applications": "*",
+    "microserviceName": "yoothit"
+}

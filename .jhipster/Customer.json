@@ -1,0 +1,257 @@
+{
+    "name": "Customer",
+    "fields": [
+        {
+            "fieldName": "iCustomer",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "webPassword",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "iTariff",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "webLogin",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "iRoutingGroup",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "balance",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "creditLimit",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "accountsMgmt",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "customersMgmt",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "systemMgmt",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "accountsMatchingRule",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "companyName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "salutation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "firstName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "midInit",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "streetAddr",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "state",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "postalCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "city",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "country",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "contact",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "fax",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "altPhone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "altContact",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "bcc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "mailFrom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "paymentCurrency",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "paymentMethod",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "minPaymentAmount",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "iCommissionAgent",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "commissionSize",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "tariffsMgmt",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "maxDepth",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "useOwnTariff",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "vouchersMgmt",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "iPasswordPolicy",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "callshopEnabled",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "overcommitProtection",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "overcommitLimit",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "didPoolEnabled",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "ivrAppsEnabled",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "asrAcdEnabled",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "debitCreditCardsEnabled",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "conferencingEnabled",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "sharePaymentProcessors",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "dnclEnabled",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "iTimeZone",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "iLang",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "iExportType",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "startPage",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "dnsAlias",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "maxSessions",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "maxCallsPerSecond",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20210623000600",
+    "entityTableName": "customer",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "yoothit",
+    "applications": "*",
+    "microserviceName": "yoothit"
+}

@@ -1,0 +1,18 @@
+entity Calls {
+iEnviromment Integer required  ,
+cli String ,
+cld String ,
+iConnection Integer ,
+direction String ,
+callId String ,
+delay Double ,
+iAccount Integer ,
+ccState String 
+duration Double ,
+calleeMediaIp String ,
+id String ,
+iCustomer Integer ,
+callerMediaIp String 
+}
+dto * with mapstruct
+service all with serviceImpl

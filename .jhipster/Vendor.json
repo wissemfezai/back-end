@@ -1,0 +1,181 @@
+{
+    "name": "Vendor",
+    "fields": [
+        {
+            "fieldName": "iVendor",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "destination",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "iMediaRelay",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "username",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "password",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "translationRule",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cliTranslationRule",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "iMediaRelayType",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "capacity",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "enforceCapacity",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "huntstopScodes",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "blocked",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "timeout100",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "iProtocol",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "iProtoTransport",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "qmonAcdEnabled",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "qmonAsrEnabled",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "qmonStatWindow",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "qmonAcdThreshold",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "qmonAsrThreshold",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "qmonRetryInterval",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "qmonRetryBatch",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "qmonAction",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "qmonNotificationEnabled",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "useAssertedId",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "assertedIdTranslation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "outboundIp",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "maxCps",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "ignoreLrn",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "singleOutboundPort",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "outboundProxy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "acceptRedirects",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "redirectDepthLimit",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "fromDomain",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "enableDiversion",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "diversionTranslation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "iPrivacyMode",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "randomCallId",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "passRuriParams",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20210623000700",
+    "entityTableName": "vendor",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "yoothit",
+    "applications": "*",
+    "microserviceName": "yoothit"
+}
